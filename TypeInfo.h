@@ -19,7 +19,7 @@
     #define funcName __FUNCSIG__
     #define seperator1 "<"
     #define seperator2 ">"
-#elif defined (_GNUC)
+#elif defined (__GNUG__)
     #define funcName __PRETTY_FUNCTION__
     #define seperator1 "{"
     #define seperator2 "}"
